@@ -63,5 +63,41 @@ public class Main {
 
 
         //Perimeter Of Circle C=2πr
+
+//        int radius = inp.nextInt();
+//
+//        double pie = 3.14;
+//
+//        double perometercircle = 2*pie*radius;
+//
+//        System.out.println(perometercircle);
+
+        //Perimeter Of Equilateral Triangle P=3a
+
+//        int a = inp.nextInt();
+//        int Perimeter = 3*a;
+//        System.out.println(Perimeter);
+
+        //Perimeter Of Parallelogram P=2(a+b)
+
+//        int a = inp.nextInt();
+//        int b = inp.nextInt();
+//
+//        int Perimeter = 2*(a*b);
+//        System.out.println(Perimeter);
+
+        //Perimeter Of Rectangle P=2(l+w)
+//
+//        int l = inp.nextInt();
+//        int w = inp.nextInt();
+//
+//        int Per = 2*(l+w);
+//        System.out.println(Per);
+
+        //Perimeter Of Square P=4a
+
+        int a = inp.nextInt();
+        int per = 4*a;
+        System.out.println(per);
     }
 }
