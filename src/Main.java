@@ -3,6 +3,8 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner inp = new Scanner(System.in);
+
+        double pie = 3.14;
         //Area Of Circle Java Program
 //        Scanner inputRadius  = new Scanner(System.in);
 //        int Radius = inputRadius.nextInt();
@@ -96,8 +98,93 @@ public class Main {
 
         //Perimeter Of Square P=4a
 
-        int a = inp.nextInt();
-        int per = 4*a;
-        System.out.println(per);
+//        int a = inp.nextInt();
+////        int per = 4*a;
+////        System.out.println(per);
+
+
+        //Perimeter Of Rhombus P=4a
+
+//        int a = inp.nextInt();
+//
+//        int peri = 4*a;
+//        System.out.println(peri);
+
+        //Volume Of Cone Java Program
+
+//        double radius = inp.nextDouble();
+//        double height = inp.nextDouble();
+//
+
+//
+//        double volu = pie*radius*radius*(height/3);
+//
+//        System.out.println(volu);
+
+        //Volume Of Prism (V) = B × h,
+//
+//        double base = inp.nextDouble();
+//        double height = inp.nextDouble();
+//
+//        double vol = base*height;
+//        System.out.println(vol);
+
+        //Volume Of Cylinder V=πr2h
+
+//        double radius = inp.nextDouble();
+//
+//        double height = inp.nextDouble();
+//
+//        double vol = pie*radius*radius*height;
+//        System.out.println(vol);
+
+        //Volume Of Sphere
+
+//        double radius = inp.nextDouble();
+//
+//        double vol = (4/3)*pie*radius*radius*radius;
+//
+//        System.out.println(vol);
+
+        //Volume Of Pyramid
+
+//        double l = inp.nextDouble(); //	Base length
+//        double w = inp.nextDouble(); //Base width
+//        double h = inp.nextDouble();  //Pyramid height
+//
+//        double vol = (l*w*h)/3;
+//        System.out.println(vol);
+
+        //Curved Surface Area Of Cylinder  2πrh
+
+//        double radius = inp.nextDouble();
+//        double height = inp.nextDouble();
+//
+//        double CSA = 2*pie*radius*height;
+//
+//        System.out.println(CSA);
+
+        // Total Surface Area Of Cube 6a2
+
+//        int a = inp.nextInt();
+//        int TSA = 6*a*a;
+//        System.out.println(TSA);
+
+        //Fibonacci Series In Java Programs
+
+        //0,1,1,2,3...
+
+        int num = inp.nextInt();
+        int a = 0;
+        int b = 1;
+        int count = 2;
+
+        while (count <= num ){
+            int temp = b;
+            b = b+a;
+            a = temp;
+            count++;
+        }
+        System.out.println(b);
     }
 }
