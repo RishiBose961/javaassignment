@@ -48,7 +48,7 @@ public class Main {
 //        int Area = b*h;
 //        System.out.println(Area);
 
-    //    Area Of Rhombus    A=pq/2
+        //    Area Of Rhombus    A=pq/2
 
 //        int p = inp.nextInt();
 //        int q = inp.nextInt();
@@ -174,17 +174,125 @@ public class Main {
 
         //0,1,1,2,3...
 
-        int num = inp.nextInt();
-        int a = 0;
-        int b = 1;
-        int count = 2;
+//        int num = inp.nextInt();
+//        int a = 0;
+//        int b = 1;
+//        int count = 2;
+//
+//        while (count <= num ){
+//            int temp = b;
+//            b = b+a;
+//            a = temp;
+//            count++;
+//        }
+//        System.out.println(b);
 
-        while (count <= num ){
-            int temp = b;
-            b = b+a;
-            a = temp;
-            count++;
+        //Subtract the Product and Sum of Digits of an Integer
+
+//        int n = 4421;
+//        int sum = 0;
+//
+//        int product = 1;
+//
+//        while(n>0){
+//            int rem = n%10;
+//            product*=rem;
+//            sum+=rem;
+//            n/=10;
+//
+//            System.out.println(product-sum);
+//        }
+
+        //Input a number and print all the factors of that number (use loops).
+//        int n = inp.nextInt();
+//
+//        for (int i =1;i<=n;i++){
+//            if (n%i==0){
+//                System.out.println(i);
+//            }
+//        }
+
+        //Take integer inputs till the user enters 0 and print the sum of all numbers (HINT: while loop)
+
+//        int num = inp.nextInt();
+//        int sum = 0;
+//        while(true){
+//
+//            if (num == 0){
+//                break;
+//            }
+//
+//            sum+=num;
+//
+//            System.out.println(sum);
+//
+//        }
+
+
+        //Addition Of Two Numbers
+
+//        int num1 = inp.nextInt();
+//        int num2 = inp.nextInt();
+//
+//        int sol = num1+num2;
+//
+//        System.out.println(sol);
+
+        //Factorial Program In Java
+
+//        int num = 4;
+//
+//        int i = 1;
+//        long fact = 1;
+//        while (i <=num){
+//            System.out.println(fact*=i);
+//            i++;
+//        }
+
+        //Reverse A String In Java
+
+//      String input = "Hello, World!";
+//      String reverse = "";
+//
+//      for (int i = input.length()-1;i>=0;i--){
+//          reverse+= input.charAt(i);
+//
+//      }
+//        System.out.println(reverse);
+
+        //Find if a number is palindrome or not
+
+//        int num = inp.nextInt();
+//
+//        if (palindromeno(num)){
+//            System.out.println(num + " is a palindrome.");
+//        }
+//        else {
+//            System.out.println(num + " is not a palindrome.");
+//        }
+
+        //Sum Of A Digits Of Number
+
+        int num = inp.nextInt();
+
+        int sum = 0;
+        while (num != 0) {
+            int rem = num % 10;
+            sum += rem;
+            num /= 10;
+
         }
-        System.out.println(b);
+        System.out.println(sum);
     }
+
+//    public static boolean palindromeno(int num){
+//        int reservedNum = 0;
+//        int orignalno = num;
+//        while (num != 0){
+//            int rem = num % 10;
+//            reservedNum = reservedNum*10+rem;
+//            num/=10;
+//        }
+//        return orignalno== reservedNum;
+//    }
 }
